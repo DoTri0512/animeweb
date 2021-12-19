@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.header{
+    background-color: orange;
+    width: 100%;
+    height: 70px;
+    color: white;
+    font-size: 20px;
+    line-height: 70px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.search{
+    height: 25px;
+    width: 350px;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    line-height: 70px;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 16px;
+    margin-left: 400px;
+}
+.search input{
+    height: 28px;
+    width: 95%;
+    border: none;
+    padding-left: 10px;
+}
+.search btn{
+    float: right;
+    width: 5%;
+    height: 28px;
+    line-height: 40px;
+    text-align: center;
+    background-color: none;
+}
+.search input:focus, .search input:active, search input{
+    outline:0;
+    outline-style: none;
+    outline-width: 0;
+    border-radius: 10px 0px 0px 10px;
+}
+.login a{
+    float: right;
+    display: flex;
+    color: white;
+    margin-right: 50px;
+}
+#menu #menu1{
+    background: whitesmoke;
+    list-style-type: none;
+}
+ .header .logo h3{
+    margin-left: 50px;
+    color: white;
+}
+#menu {
+    width: 100%;
+    background-color: none;
+    list-style: none;
+    font-size: 20px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    margin-left: 150px;
+}
+
+#menu #menu1 li{
+    display:inline-table;
+    text-decoration: none;
+    position: relative;
+    color: red;
+    float: left;
+    width: 150px;
+    
+
+}
+#menu #menu1 li a{
+    color:red;
+    display: block;
+    text-decoration: none;
+}
+#menu #menu1 li a:hover{
+    background: wheat;
+    color: blue;
+
+}
+#menu #menu1 li > #sub-menu{
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    border: 1px solid #000;
+}
+#menu #menu1 li:hover #sub-menu{
+    display: block;
+}
+.content{
+    width: 70%;
+    margin-top:10px;
+    padding-top:64px;
+}
+.places-list {
+    float: left;
+    width: 100%;
+    margin: 15px 140px 0;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 70px;
+}
+.places-img {
+    display: inline-block;
+    width: 100%;
+    height: 250px;
+}
+.places-img:hover{
+    opacity: 0.6;
+}
+.places-body {
+    padding: 16px;
+    background-color: #fff;
+}
+.places-heading {
+    color: #000;
+    font-size: 12px;
+
+}
+.places-time {
+    margin-top: 15px;
+    color: #d32f2f;
+}
+.by-tickets{
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    display: inline-block;
+    padding: 11px 16px;
+    margin-top: 13px;
+
+}
+.by-tickets:hover{
+    color: #000;
+    background-color: #ccc;
+}
+.places-desc {
+    color: #000;
+    margin-top: 15px;
+    font-size: 14px;
+}
+#h2{
+    margin-left: 140px;
+    color: red;
+}
+.img-head{
+    width: 100%;
+   margin-top:20px;
+}
+.img-1{
+    margin-left: 4.5%;
+    display: inline-block;
+    width: 60%;
+    height: 300px;
+    background-color: red;
+    display: inline-block;
+}
+.img-1 img{
+    width: 110%;
+    height: 100%;
+}
+.img-2{
+    margin-right: 5.5%;
+    float: right;
+    display: inline-block;
+    background-color:none;
+    height: 100px;
+    width: 30%;
+}
+.img-2 img{
+    width: 74%;
+    height: 97%;
+    margin-left: 89px;
+}
+.img-3{
+    margin-left: 4.5%;
+    height: 110px;
+    width: 90.5%;
+    background-color:none;
+}
+.img-3 img{
+    height: 100%;
+    width: 24.6%;
+}
+.img-head img:hover{
+    transform: scale(1.2);
+}
+.footer{
+    width: 100%;
+    background-color: lightblue;
+    height: 100px;
+    float: left;
+    margin-top:140px;
+}
+.footer h2{
+    text-align: center;
+}
+.footer ul li {
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 250px;
+}
+.footer ul li a{
+    color:black;
+}
+.footer ul li p{
+    color: red;
+}
+.follow{
+    background-color: violet;
+    margin: 90px 0px;
+    height: 100px;
+    line-height: 100px;
+}
+.history{
+    background-color: blue;
+    margin: 90px 0px;
+    height: 100px;
+    line-height: 100px;
+}
+.follow h1{
+    text-align: center;
+    color: red;
+}
+.history h1{
+    text-align: center;
+    color: red;
+}
+.places-desck {
+    color: #000;
+    margin-top: 15px;
+}
+.create{
+    width:100%;
+    margin-top: 50px;
+    background-color: none;
+    border: 1px solid black;
+}
+.create input{
+    margin-bottom: 10px;
+    height: 40px;
+    width: 500px;
+    display: block;
+    margin-left: 400px;
+}
+.create button{
+    margin-bottom: 10px;
+    height: 40px;
+    display: block;
+    width: 502px;
+    margin-left: 400px;
+}
+.create h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.loginn{
+    width:400px;
+    height: 250px;
+    margin-top: 90px;
+    background-color: none;
+    border: 1px solid black;
+    margin-left: 400px;
+    border-radius: 5px;
+}
+.loginn input{
+    margin-bottom: 10px;
+    height: 40px;
+    width: 300px;
+    display: block;
+    margin-left: 45px;
+}
+.loginn button{
+    margin-bottom: 10px;
+    height: 40px;
+    display: block;
+    width: 302px;
+    margin-left: 45px;
+    background-color: orange;
+}
+.loginn h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.loginn .bi-bi-facebook{
+    margin-left: -150px;
+}
+.loginn .gg-fb{
+    margin-left: 170px;
+    bottom: 70px;
+} 
+
+.img-head img{
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.places-desc a{
+    color: #000;
+}
